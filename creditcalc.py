@@ -3,21 +3,6 @@ import argparse
 import sys
 
 
-# def check_positive(value):
-#     checking_value = value
-#     if type(value) is int:
-#         if value <= 0:
-#             raise argparse.ArgumentTypeError("Incorrect parameters")
-#         else:
-#             checking_value = value
-#     if type(value) is float:
-#         if value <= 0.00:
-#             raise argparse.ArgumentTypeError("Incorrect parameters")
-#         else:
-#             checking_value = value
-#     return checking_value
-
-
 def calculate_differentiated_payments(prncpl, prds, intrst):
     current_period = 1
     credit_interest = intrst / 100 / 12
