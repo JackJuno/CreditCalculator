@@ -1,0 +1,2 @@
+# CreditCalculator
+Python study project
